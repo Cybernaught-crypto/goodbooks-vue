@@ -26,6 +26,7 @@ myBooks: IBook[] = [];
 // computed properties
 get bookCount() {
   return this.myBooks.length;
+
 }
 
 // props
