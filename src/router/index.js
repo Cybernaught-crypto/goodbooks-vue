@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Books from '../views/Books.vue';
+import AddBook from '@/views/AddBook.vue';
 Vue.use(VueRouter);
 const routes = [
     {
@@ -13,6 +14,11 @@ const routes = [
         path: '/books',
         name: 'Books',
         component: Books
+    },
+    {
+        path: '/add',
+        name: 'AddBook',
+        component: AddBook
     }
 ];
 const router = new VueRouter({
